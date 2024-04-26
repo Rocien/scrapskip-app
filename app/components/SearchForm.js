@@ -7,7 +7,7 @@ export default function SearchForm() {
   return (
     <form className="py-4 px-6" action="/crap" method="GET">
       <div className="flex flex-col gap-2">
-        <div className="flex flex-row items-center gap-2">
+        <div className="flex flex-row items-center gap-2 md:px-40 lg:px-80">
           <label
             htmlFor="search"
             className="py-1 px-2 text-right flex-shrink-0"
@@ -26,7 +26,7 @@ export default function SearchForm() {
             <IoSearch className="mx-auto w-8 h-6" />
           </button>
         </div>
-        <div className="flex flex-row items-center gap-2">
+        <div className="flex flex-row items-center gap-2 md:px-40 lg:px-80">
           <label
             htmlFor="distance"
             className="py-1 px-2 text-right flex-shrink-0"
@@ -43,7 +43,7 @@ export default function SearchForm() {
           </select>
         </div>
       </div>
-      <p className="text-sm">
+      <p className="text-sm md:px-40 lg:px-80">
         ( Leave form blank to match everything within the indicated distance. )
       </p>
     </form>
