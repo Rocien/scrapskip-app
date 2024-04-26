@@ -7,7 +7,7 @@ export const LoginButton = () => {
   //we are just sending the user to the Google Auth page
   //which will return us to this website on the /login/page.js
   const redirectUrl = encodeURIComponent(`${base}/login`);
-  const url = `https://scrap-skipapi.onrender.com/auth/google?redirect_url=${redirectUrl}`;
+  const url = `https://mad9124.ohohoh.ca/auth/google?redirect_url=${redirectUrl}`;
 
   return (
     <form

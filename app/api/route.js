@@ -1,6 +1,6 @@
 'use server';
 
-const BASE_URL = 'https://scrap-skipapi.onrender.com/api/crap';
+const BASE_URL = 'https://mad9124.ohohoh.ca/api/crap';
 
 // Function to fetch all items excluding taken ones
 export async function fetchAllCrap(queryParams = {}) {
@@ -40,7 +40,7 @@ export async function fetchCrapDetails(id) {
 
 // Function to create a new item
 export async function createCrap(data, token) {
-  const response = await fetch('https://scrap-skipapi.onrender.com/api/crap', {
+  const response = await fetch('https://mad9124.ohohoh.ca/api/crap', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${token}`
